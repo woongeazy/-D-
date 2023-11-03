@@ -1,0 +1,147 @@
+@charset "utf-8";
+.d-flex {
+    display: flex;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
+}
+.aline-center {
+    align-items: center;
+}
+.mt-1 {
+    margin: 1rem 0;
+}
+.mt-2 {
+    margin: 2rem 0;
+}
+.mt-3 {
+    margin: 3rem 0;
+}
+.mx-1 {
+     margin: 0 1rem;
+}
+.mx-2 {
+     margin: 0 2rem;
+}
+.mx-3 {
+     margin: 0 3rem;
+}
+.pos-r {
+    position: relative;
+}
+.pos-a {
+    position: absolute;
+}
+
+
+
+
+
+
+.container {
+    width: 100%;
+    height: 950px;
+    background: orange;
+}
+.header {
+    width: 100%;
+    height: 850px;
+}
+.header_left {
+    background: #6d6d6d;
+    width: 200px;
+    height: 100%;
+}
+.logo {
+    width: 100%;
+    height: 150px;
+    background: #4d4d4d;
+}
+#gnb {
+    font-size: .9rem;
+    text-transform: uppercase;
+}
+#gnb > li {
+    border: 1px solid #000;
+    background: #7d7d7d;
+    box-sizing: border-box;
+}
+.lnb {
+    display: none;
+}
+.spotmenu {
+    font-size: .7rem;
+    color: #fff;
+}
+
+.spotmenu p:nth-child(1) {
+    border-right: 1px solid #fff;
+    margin: 0 .5rem 0 0 ;
+    padding: 0 .5rem 0 0;
+}
+
+/* .spotmenu li:nth-child(1) p::after {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 20px;
+    position: relative;
+    top: 2px;
+    background: #fff;
+} */
+
+.header_right {
+    width: calc(100% - 200px);
+    height: 100%;
+    background: #3d3d3d;
+}
+.slider {
+    height: 400px;
+    overflow: hidden;
+}
+#pages {
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+#pages ul li {
+    height: 104px;
+    background: #000;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+}
+#pages ul li img {
+    border: 2px solid transparent;
+    opacity: .8;
+}
+#pages ul li:hover img {
+    opacity: 1;
+    border: 2px solid orange;
+}
+.imgs {
+    top: 0;
+    left: 0;
+}
+.main {
+    height: 200px;
+    background: skyblue;
+}
+.news_gallery {
+    height: 250px;
+    background: plum;
+}
+.footer {
+    background: #5d5d5d;
+    height: 100px;
+}
+.footer_logo {
+    width: 200px;
+    height: 100%;
+}
+.info_sns {
+    width: calc(100% - 200px);
+    background: orange;
+    height: 100%;
+}
